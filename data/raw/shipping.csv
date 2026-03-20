@@ -1,0 +1,6 @@
+﻿shipping id,shipping type,shipping category,shipping cost level
+1,Standard,Standard,Low
+2,Expedited,Fast Shipping,Medium
+3,Express,Fast Shipping,High
+4,Overnight,Fast Shipping,Very High
+5,Same Day,Same-Day,Very High

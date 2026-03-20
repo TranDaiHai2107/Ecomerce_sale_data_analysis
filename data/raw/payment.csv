@@ -1,0 +1,6 @@
+﻿payment_id,payment method,payment type
+1,Bank Transfer,Online
+2,Cash,Offline
+3,Credit Card,Online
+4,Debit Card,Online
+5,Paypal,Online
