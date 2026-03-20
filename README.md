@@ -4,7 +4,7 @@
 End-to-end data analytics project on e-commerce office furniture transactions (Sep 2023 – Sep 2024). Covers ETL, EDA, Power BI dashboard, and RFM customer segmentation with K-Means clustering.
 
 ## Tech Stack
-Python (Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn) · Power BI · Jupyter Notebook
+Python (Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn) · Power BI (Power Query, Dax) · Jupyter Notebook
 
 ## Dataset
 5 relational tables — `orders` (9,999 rows), `customer`, `product`, `payment`, `shipping`.
@@ -20,7 +20,7 @@ Python (Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn) · Power BI · Jupyter
 ├── scripts/
 │   └── etl_pipeline.py             # Extract → Transform → Load
 ├── dashboard/
-│   ├── powerbi_dashboard.pbix
+│   ├── powerbi_dashboard.pbix      # Using raw data
 │   └── dashboard_preview.png
 ├── requirements.txt
 └── README.md
