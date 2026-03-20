@@ -106,7 +106,7 @@ order_id,customer_id,product_id,order_status,payment_id,order_date,shipping_id,i
 105,1101,CHR102,Cancelled,3,2023-10-25,4,False,2,1,125.2583178,33,Female,OFFICECHAIR_CHR102,Office Chair,596.09,Credit Card,Online,Overnight,Fast Shipping,Very High,596.09
 106,1101,CHR101,Completed,2,2024-05-23,4,False,5,2,3.724203797,33,Female,OFFICECHAIR_CHR101,Office Chair,488.35,Cash,Offline,Overnight,Fast Shipping,Very High,976.7
 107,1101,CHR101,Completed,5,2024-07-23,3,False,5,3,4.189729272,33,Female,OFFICECHAIR_CHR101,Office Chair,488.35,Paypal,Online,Express,Fast Shipping,High,1465.0500000000002
-108,1102,CHR101,Cancelle,5,2024-08-06,3,False,5,8,4.189729272,55,Male,OFFICECHAIR_CHR101,Office Chair,488.35,Paypal,Online,Express,Fast Shipping,High,3906.8
+108,1102,CHR101,Cancelled,5,2024-08-06,3,False,5,8,4.189729272,55,Male,OFFICECHAIR_CHR101,Office Chair,488.35,Paypal,Online,Express,Fast Shipping,High,3906.8
 109,1105,SCB101,Completed,4,2024-09-20,4,False,3,6,55.75928829,42,Female,STORAGECAB_SCB101,Storage Cabinet,366.98,Debit Card,Online,Overnight,Fast Shipping,Very High,2201.88
 110,1109,DSK103,Cancelled,4,2024-03-25,4,False,3,4,121.6796261,37,Female,OFFICEDESK_DSK103,Office Desk,691.88,Debit Card,Online,Overnight,Fast Shipping,Very High,2767.52
 111,1109,CHR101,Completed,4,2024-07-13,4,True,5,9,3.724203797,37,Female,OFFICECHAIR_CHR101,Office Chair,488.35,Debit Card,Online,Overnight,Fast Shipping,Very High,4395.150000000001
@@ -172,7 +172,7 @@ order_id,customer_id,product_id,order_status,payment_id,order_date,shipping_id,i
 171,1167,CHR101,Completed,5,2023-12-05,3,True,5,6,4.189729272,66,Female,OFFICECHAIR_CHR101,Office Chair,488.35,Paypal,Online,Express,Fast Shipping,High,2930.1000000000004
 172,1168,DSK103,Cancelled,5,2023-10-27,4,False,3,3,121.6796261,54,Female,OFFICEDESK_DSK103,Office Desk,691.88,Paypal,Online,Overnight,Fast Shipping,Very High,2075.64
 173,1169,CHR102,Cancelled,3,2023-10-03,4,False,2,7,125.2583178,57,Female,OFFICECHAIR_CHR102,Office Chair,596.09,Credit Card,Online,Overnight,Fast Shipping,Very High,4172.63
-174,1169,DSK103,Cancelle,3,2024-05-23,4,True,3,6,121.6796261,57,Female,OFFICEDESK_DSK103,Office Desk,691.88,Credit Card,Online,Overnight,Fast Shipping,Very High,4151.28
+174,1169,DSK103,Cancelled,3,2024-05-23,4,True,3,6,121.6796261,57,Female,OFFICEDESK_DSK103,Office Desk,691.88,Credit Card,Online,Overnight,Fast Shipping,Very High,4151.28
 175,1170,CHR102,Completed,3,2024-04-01,4,False,2,7,125.2583178,54,Male,OFFICECHAIR_CHR102,Office Chair,596.09,Credit Card,Online,Overnight,Fast Shipping,Very High,4172.63
 176,1171,DSK103,Completed,4,2023-10-08,1,True,3,7,123.2006214,50,Male,OFFICEDESK_DSK103,Office Desk,691.88,Debit Card,Online,Standard,Standard,Low,4843.16
 177,1171,DSK103,Completed,3,2023-12-15,4,False,3,9,121.6796261,50,Male,OFFICEDESK_DSK103,Office Desk,691.88,Credit Card,Online,Overnight,Fast Shipping,Very High,6226.92
@@ -209,7 +209,7 @@ order_id,customer_id,product_id,order_status,payment_id,order_date,shipping_id,i
 208,1195,DSK103,Completed,3,2023-10-13,4,False,3,7,121.6796261,32,Female,OFFICEDESK_DSK103,Office Desk,691.88,Credit Card,Online,Overnight,Fast Shipping,Very High,4843.16
 209,1196,DSK103,Cancelled,5,2023-12-14,1,False,3,8,123.2006214,77,Male,OFFICEDESK_DSK103,Office Desk,691.88,Paypal,Online,Standard,Standard,Low,5535.04
 210,1196,CHR102,Completed,2,2024-04-07,3,False,2,1,140.9156075,77,Male,OFFICECHAIR_CHR102,Office Chair,596.09,Cash,Offline,Express,Fast Shipping,High,596.09
-211,1196,DSK103,Complete,4,2024-05-10,3,False,3,1,136.8895794,77,Male,OFFICEDESK_DSK103,Office Desk,691.88,Debit Card,Online,Express,Fast Shipping,High,691.88
+211,1196,DSK103,Completed,4,2024-05-10,3,False,3,1,136.8895794,77,Male,OFFICEDESK_DSK103,Office Desk,691.88,Debit Card,Online,Express,Fast Shipping,High,691.88
 212,1197,CHR101,Completed,3,2024-05-10,4,True,5,3,3.724203797,77,Female,OFFICECHAIR_CHR101,Office Chair,488.35,Credit Card,Online,Overnight,Fast Shipping,Very High,1465.0500000000002
 213,1197,BSF101,Completed,2,2024-06-30,1,False,3,5,69.89256231,77,Female,BOOKSHELF_BSF101,Bookshelf,129.83,Cash,Offline,Standard,Standard,Low,649.1500000000001
 214,1197,DSK103,Cancelled,2,2024-09-21,3,False,3,9,136.8895794,77,Female,OFFICEDESK_DSK103,Office Desk,691.88,Cash,Offline,Express,Fast Shipping,High,6226.92
@@ -217,9 +217,9 @@ order_id,customer_id,product_id,order_status,payment_id,order_date,shipping_id,i
 216,1203,CHR102,Cancelled,3,2024-01-17,1,False,2,6,126.8240468,43,Male,OFFICECHAIR_CHR102,Office Chair,596.09,Credit Card,Online,Standard,Standard,Low,3576.54
 217,1203,DSK103,Completed,3,2024-04-30,1,False,3,5,123.2006214,43,Male,OFFICEDESK_DSK103,Office Desk,691.88,Credit Card,Online,Standard,Standard,Low,3459.4
 218,1205,SCB101,Completed,4,2024-08-02,1,False,3,7,56.45627939,74,Male,STORAGECAB_SCB101,Storage Cabinet,366.98,Debit Card,Online,Standard,Standard,Low,2568.86
-219,1208,BSF101,Complete,4,2024-07-25,1,False,3,1,69.89256231,62,Male,BOOKSHELF_BSF101,Bookshelf,129.83,Debit Card,Online,Standard,Standard,Low,129.83
+219,1208,BSF101,Completed,4,2024-07-25,1,False,3,1,69.89256231,62,Male,BOOKSHELF_BSF101,Bookshelf,129.83,Debit Card,Online,Standard,Standard,Low,129.83
 220,1210,BSF101,Completed,5,2024-02-26,1,False,3,10,69.89256231,24,Female,BOOKSHELF_BSF101,Bookshelf,129.83,Paypal,Online,Standard,Standard,Low,1298.3000000000002
-221,1210,SCB101,Cancelle,4,2024-04-29,4,False,3,3,55.75928829,24,Female,STORAGECAB_SCB101,Storage Cabinet,366.98,Debit Card,Online,Overnight,Fast Shipping,Very High,1100.94
+221,1210,SCB101,Cancelled,4,2024-04-29,4,False,3,3,55.75928829,24,Female,STORAGECAB_SCB101,Storage Cabinet,366.98,Debit Card,Online,Overnight,Fast Shipping,Very High,1100.94
 222,1211,CHR101,Completed,2,2024-01-04,1,True,5,3,3.770756345,24,Male,OFFICECHAIR_CHR101,Office Chair,488.35,Cash,Offline,Standard,Standard,Low,1465.0500000000002
 223,1211,SCB101,Completed,4,2024-01-29,4,False,3,9,55.75928829,24,Male,STORAGECAB_SCB101,Storage Cabinet,366.98,Debit Card,Online,Overnight,Fast Shipping,Very High,3302.82
 224,1211,BSF101,Completed,2,2024-07-07,1,False,3,1,69.89256231,24,Male,BOOKSHELF_BSF101,Bookshelf,129.83,Cash,Offline,Standard,Standard,Low,129.83
@@ -249,13 +249,13 @@ order_id,customer_id,product_id,order_status,payment_id,order_date,shipping_id,i
 248,1235,CHR101,Completed,3,2024-08-22,3,False,5,5,4.189729272,38,Female,OFFICECHAIR_CHR101,Office Chair,488.35,Credit Card,Online,Express,Fast Shipping,High,2441.75
 249,1236,CHR101,Cancelled,4,2024-08-14,1,True,5,9,3.770756345,55,Male,OFFICECHAIR_CHR101,Office Chair,488.35,Debit Card,Online,Standard,Standard,Low,4395.150000000001
 250,1236,CHR102,Cancelled,5,2024-09-01,4,False,2,8,125.2583178,55,Male,OFFICECHAIR_CHR102,Office Chair,596.09,Paypal,Online,Overnight,Fast Shipping,Very High,4768.72
-251,1237,SCB101,Complete,5,2024-03-12,3,True,3,4,62.72919932,72,Male,STORAGECAB_SCB101,Storage Cabinet,366.98,Paypal,Online,Express,Fast Shipping,High,1467.92
+251,1237,SCB101,Completed,5,2024-03-12,3,True,3,4,62.72919932,72,Male,STORAGECAB_SCB101,Storage Cabinet,366.98,Paypal,Online,Express,Fast Shipping,High,1467.92
 252,1237,SCB101,Completed,5,2024-04-06,1,True,3,4,56.45627939,72,Male,STORAGECAB_SCB101,Storage Cabinet,366.98,Paypal,Online,Standard,Standard,Low,1467.92
 253,1244,SCB101,Cancelled,2,2023-12-12,4,False,3,6,55.75928829,70,Male,STORAGECAB_SCB101,Storage Cabinet,366.98,Cash,Offline,Overnight,Fast Shipping,Very High,2201.88
 254,1244,CHR102,Completed,3,2024-02-05,4,False,2,6,125.2583178,70,Male,OFFICECHAIR_CHR102,Office Chair,596.09,Credit Card,Online,Overnight,Fast Shipping,Very High,3576.54
 255,1244,CHR102,Cancelled,5,2024-02-07,1,False,2,4,126.8240468,70,Male,OFFICECHAIR_CHR102,Office Chair,596.09,Paypal,Online,Standard,Standard,Low,2384.36
 256,1244,CHR101,Cancelled,3,2024-05-23,3,True,5,9,4.189729272,70,Male,OFFICECHAIR_CHR101,Office Chair,488.35,Credit Card,Online,Express,Fast Shipping,High,4395.150000000001
-257,1244,SCB101,Cancelle,2,2024-07-23,1,False,3,9,56.45627939,70,Male,STORAGECAB_SCB101,Storage Cabinet,366.98,Cash,Offline,Standard,Standard,Low,3302.82
+257,1244,SCB101,Cancelled,2,2024-07-23,1,False,3,9,56.45627939,70,Male,STORAGECAB_SCB101,Storage Cabinet,366.98,Cash,Offline,Standard,Standard,Low,3302.82
 258,1245,BSF101,Cancelled,4,2024-07-24,4,True,3,7,69.02969117,39,Female,BOOKSHELF_BSF101,Bookshelf,129.83,Debit Card,Online,Overnight,Fast Shipping,Very High,908.8100000000001
 259,1246,SCB101,Completed,5,2024-01-05,1,False,3,2,56.45627939,61,Male,STORAGECAB_SCB101,Storage Cabinet,366.98,Paypal,Online,Standard,Standard,Low,733.96
 260,1247,CHR102,Cancelled,5,2023-10-18,4,False,2,4,125.2583178,47,Male,OFFICECHAIR_CHR102,Office Chair,596.09,Paypal,Online,Overnight,Fast Shipping,Very High,2384.36
@@ -277,7 +277,7 @@ order_id,customer_id,product_id,order_status,payment_id,order_date,shipping_id,i
 276,1258,SCB101,Completed,2,2024-05-10,3,False,3,4,62.72919932,65,Male,STORAGECAB_SCB101,Storage Cabinet,366.98,Cash,Offline,Express,Fast Shipping,High,1467.92
 277,1261,CHR102,Completed,3,2024-01-31,1,False,2,1,126.8240468,76,Male,OFFICECHAIR_CHR102,Office Chair,596.09,Credit Card,Online,Standard,Standard,Low,596.09
 278,1262,CHR102,Completed,3,2023-11-24,4,True,2,5,125.2583178,44,Male,OFFICECHAIR_CHR102,Office Chair,596.09,Credit Card,Online,Overnight,Fast Shipping,Very High,2980.4500000000003
-279,1263,BSF101,Copleted,2,2023-10-19,1,True,3,6,69.89256231,20,Male,BOOKSHELF_BSF101,Bookshelf,129.83,Cash,Offline,Standard,Standard,Low,778.98
+279,1263,BSF101,Completed,2,2023-10-19,1,True,3,6,69.89256231,20,Male,BOOKSHELF_BSF101,Bookshelf,129.83,Cash,Offline,Standard,Standard,Low,778.98
 280,1263,BSF101,Completed,4,2023-10-22,3,False,3,8,77.65840257,20,Male,BOOKSHELF_BSF101,Bookshelf,129.83,Debit Card,Online,Express,Fast Shipping,High,1038.64
 281,1264,CHR101,Completed,2,2024-04-17,3,False,5,9,4.189729272,76,Female,OFFICECHAIR_CHR101,Office Chair,488.35,Cash,Offline,Express,Fast Shipping,High,4395.150000000001
 282,1265,SCB101,Completed,4,2023-10-12,3,False,3,1,62.72919932,29,Female,STORAGECAB_SCB101,Storage Cabinet,366.98,Debit Card,Online,Express,Fast Shipping,High,366.98
@@ -292,7 +292,7 @@ order_id,customer_id,product_id,order_status,payment_id,order_date,shipping_id,i
 291,1269,CHR101,Completed,5,2024-07-31,4,True,5,9,3.724203797,72,Male,OFFICECHAIR_CHR101,Office Chair,488.35,Paypal,Online,Overnight,Fast Shipping,Very High,4395.150000000001
 292,1271,SCB101,Completed,2,2023-10-11,3,False,3,1,62.72919932,36,Female,STORAGECAB_SCB101,Storage Cabinet,366.98,Cash,Offline,Express,Fast Shipping,High,366.98
 293,1271,BSF101,Cancelled,3,2024-09-19,3,False,3,8,77.65840257,36,Female,BOOKSHELF_BSF101,Bookshelf,129.83,Credit Card,Online,Express,Fast Shipping,High,1038.64
-294,1272,SCB101,Complete,4,2024-03-11,4,False,3,10,55.75928829,27,Female,STORAGECAB_SCB101,Storage Cabinet,366.98,Debit Card,Online,Overnight,Fast Shipping,Very High,3669.8
+294,1272,SCB101,Completed,4,2024-03-11,4,False,3,10,55.75928829,27,Female,STORAGECAB_SCB101,Storage Cabinet,366.98,Debit Card,Online,Overnight,Fast Shipping,Very High,3669.8
 295,1276,SCB101,Cancelled,4,2024-03-04,1,False,3,5,56.45627939,30,Male,STORAGECAB_SCB101,Storage Cabinet,366.98,Debit Card,Online,Standard,Standard,Low,1834.9
 296,1276,SCB101,Completed,4,2024-03-13,1,False,3,7,56.45627939,30,Male,STORAGECAB_SCB101,Storage Cabinet,366.98,Debit Card,Online,Standard,Standard,Low,2568.86
 297,1277,BSF101,Cancelled,4,2024-03-08,3,False,3,4,77.65840257,20,Female,BOOKSHELF_BSF101,Bookshelf,129.83,Debit Card,Online,Express,Fast Shipping,High,519.32
@@ -419,13 +419,13 @@ order_id,customer_id,product_id,order_status,payment_id,order_date,shipping_id,i
 418,1369,CHR102,Completed,3,2023-12-18,3,False,2,9,140.9156075,21,Male,OFFICECHAIR_CHR102,Office Chair,596.09,Credit Card,Online,Express,Fast Shipping,High,5364.81
 419,1372,CHR102,Completed,2,2024-06-10,3,False,2,3,140.9156075,36,Female,OFFICECHAIR_CHR102,Office Chair,596.09,Cash,Offline,Express,Fast Shipping,High,1788.27
 420,1372,CHR101,Cancelled,2,2024-08-04,4,False,5,2,3.724203797,36,Female,OFFICECHAIR_CHR101,Office Chair,488.35,Cash,Offline,Overnight,Fast Shipping,Very High,976.7
-421,1374,CHR102,Complete,4,2024-03-27,4,False,2,8,125.2583178,44,Female,OFFICECHAIR_CHR102,Office Chair,596.09,Debit Card,Online,Overnight,Fast Shipping,Very High,4768.72
+421,1374,CHR102,Completed,4,2024-03-27,4,False,2,8,125.2583178,44,Female,OFFICECHAIR_CHR102,Office Chair,596.09,Debit Card,Online,Overnight,Fast Shipping,Very High,4768.72
 422,1374,CHR101,Completed,5,2024-05-22,3,False,5,8,4.189729272,44,Female,OFFICECHAIR_CHR101,Office Chair,488.35,Paypal,Online,Express,Fast Shipping,High,3906.8
 423,1375,DSK103,Completed,2,2024-09-22,3,False,3,6,136.8895794,45,Female,OFFICEDESK_DSK103,Office Desk,691.88,Cash,Offline,Express,Fast Shipping,High,4151.28
 424,1378,CHR101,Completed,5,2024-05-02,3,False,5,8,4.189729272,69,Male,OFFICECHAIR_CHR101,Office Chair,488.35,Paypal,Online,Express,Fast Shipping,High,3906.8
 425,1378,CHR102,Cancelled,5,2024-07-21,3,False,2,9,140.9156075,69,Male,OFFICECHAIR_CHR102,Office Chair,596.09,Paypal,Online,Express,Fast Shipping,High,5364.81
 426,1379,DSK103,Completed,4,2023-10-11,1,False,3,8,123.2006214,69,Male,OFFICEDESK_DSK103,Office Desk,691.88,Debit Card,Online,Standard,Standard,Low,5535.04
-427,1381,CHR101,Complete,3,2023-12-06,1,False,5,1,3.770756345,34,Female,OFFICECHAIR_CHR101,Office Chair,488.35,Credit Card,Online,Standard,Standard,Low,488.35
+427,1381,CHR101,Completed,3,2023-12-06,1,False,5,1,3.770756345,34,Female,OFFICECHAIR_CHR101,Office Chair,488.35,Credit Card,Online,Standard,Standard,Low,488.35
 428,1381,CHR101,Completed,5,2024-01-09,1,False,5,3,3.770756345,34,Female,OFFICECHAIR_CHR101,Office Chair,488.35,Paypal,Online,Standard,Standard,Low,1465.0500000000002
 429,1382,DSK103,Cancelled,3,2024-02-04,1,False,3,7,123.2006214,62,Male,OFFICEDESK_DSK103,Office Desk,691.88,Credit Card,Online,Standard,Standard,Low,4843.16
 430,1383,BSF101,Completed,5,2024-07-26,4,False,3,2,69.02969117,73,Female,BOOKSHELF_BSF101,Bookshelf,129.83,Paypal,Online,Overnight,Fast Shipping,Very High,259.66
@@ -439,7 +439,7 @@ order_id,customer_id,product_id,order_status,payment_id,order_date,shipping_id,i
 438,1390,SCB101,Completed,4,2023-12-30,4,True,3,6,55.75928829,77,Female,STORAGECAB_SCB101,Storage Cabinet,366.98,Debit Card,Online,Overnight,Fast Shipping,Very High,2201.88
 439,1393,CHR101,Cancelled,4,2024-01-05,1,False,5,7,3.770756345,37,Male,OFFICECHAIR_CHR101,Office Chair,488.35,Debit Card,Online,Standard,Standard,Low,3418.4500000000003
 440,1395,DSK103,Completed,4,2024-05-09,3,False,3,7,136.8895794,71,Female,OFFICEDESK_DSK103,Office Desk,691.88,Debit Card,Online,Express,Fast Shipping,High,4843.16
-441,1396,BSF101,Complete,2,2023-12-02,1,True,3,1,69.89256231,71,Female,BOOKSHELF_BSF101,Bookshelf,129.83,Cash,Offline,Standard,Standard,Low,129.83
+441,1396,BSF101,Completed,2,2023-12-02,1,True,3,1,69.89256231,71,Female,BOOKSHELF_BSF101,Bookshelf,129.83,Cash,Offline,Standard,Standard,Low,129.83
 442,1398,CHR102,Completed,4,2024-07-22,3,False,2,10,140.9156075,68,Male,OFFICECHAIR_CHR102,Office Chair,596.09,Debit Card,Online,Express,Fast Shipping,High,5960.900000000001
 443,1399,BSF101,Completed,5,2023-12-05,4,False,3,7,69.02969117,57,Female,BOOKSHELF_BSF101,Bookshelf,129.83,Paypal,Online,Overnight,Fast Shipping,Very High,908.8100000000001
 444,1399,DSK103,Completed,3,2024-01-15,3,True,3,1,136.8895794,57,Female,OFFICEDESK_DSK103,Office Desk,691.88,Credit Card,Online,Express,Fast Shipping,High,691.88
@@ -455,7 +455,7 @@ order_id,customer_id,product_id,order_status,payment_id,order_date,shipping_id,i
 454,1403,BSF101,Completed,5,2024-07-29,1,False,3,5,69.89256231,37,Female,BOOKSHELF_BSF101,Bookshelf,129.83,Paypal,Online,Standard,Standard,Low,649.1500000000001
 455,1404,SCB101,Completed,3,2024-02-18,1,False,3,1,56.45627939,55,Female,STORAGECAB_SCB101,Storage Cabinet,366.98,Credit Card,Online,Standard,Standard,Low,366.98
 456,1405,SCB101,Completed,5,2024-07-15,4,False,3,5,55.75928829,54,Male,STORAGECAB_SCB101,Storage Cabinet,366.98,Paypal,Online,Overnight,Fast Shipping,Very High,1834.9
-457,1406,SCB101,Complete,2,2024-07-17,3,False,3,6,62.72919932,46,Male,STORAGECAB_SCB101,Storage Cabinet,366.98,Cash,Offline,Express,Fast Shipping,High,2201.88
+457,1406,SCB101,Completed,2,2024-07-17,3,False,3,6,62.72919932,46,Male,STORAGECAB_SCB101,Storage Cabinet,366.98,Cash,Offline,Express,Fast Shipping,High,2201.88
 458,1408,CHR101,Completed,4,2024-01-31,4,False,5,5,3.724203797,67,Male,OFFICECHAIR_CHR101,Office Chair,488.35,Debit Card,Online,Overnight,Fast Shipping,Very High,2441.75
 459,1408,CHR101,Completed,5,2024-08-09,1,False,5,6,3.770756345,67,Male,OFFICECHAIR_CHR101,Office Chair,488.35,Paypal,Online,Standard,Standard,Low,2930.1000000000004
 460,1409,CHR102,Cancelled,4,2023-12-26,3,False,2,5,140.9156075,42,Male,OFFICECHAIR_CHR102,Office Chair,596.09,Debit Card,Online,Express,Fast Shipping,High,2980.4500000000003
@@ -1021,7 +1021,7 @@ order_id,customer_id,product_id,order_status,payment_id,order_date,shipping_id,i
 1020,1904,DSK103,Completed,2,2023-12-16,3,True,3,2,136.8895794,67,Female,OFFICEDESK_DSK103,Office Desk,691.88,Cash,Offline,Express,Fast Shipping,High,1383.76
 1021,1905,BSF101,Completed,2,2024-07-22,3,False,3,5,77.65840257,78,Male,BOOKSHELF_BSF101,Bookshelf,129.83,Cash,Offline,Express,Fast Shipping,High,649.1500000000001
 1022,1907,CHR101,Completed,5,2024-04-19,4,False,5,4,3.724203797,18,Female,OFFICECHAIR_CHR101,Office Chair,488.35,Paypal,Online,Overnight,Fast Shipping,Very High,1953.4
-1023,1907,BSF101,Cancelle,3,2024-08-23,3,False,3,9,77.65840257,18,Female,BOOKSHELF_BSF101,Bookshelf,129.83,Credit Card,Online,Express,Fast Shipping,High,1168.47
+1023,1907,BSF101,Cancelled,3,2024-08-23,3,False,3,9,77.65840257,18,Female,BOOKSHELF_BSF101,Bookshelf,129.83,Credit Card,Online,Express,Fast Shipping,High,1168.47
 1024,1907,CHR101,Cancelled,4,2024-09-02,3,False,5,4,4.189729272,18,Female,OFFICECHAIR_CHR101,Office Chair,488.35,Debit Card,Online,Express,Fast Shipping,High,1953.4
 1025,1908,DSK103,Completed,5,2024-08-14,4,False,3,7,121.6796261,75,Male,OFFICEDESK_DSK103,Office Desk,691.88,Paypal,Online,Overnight,Fast Shipping,Very High,4843.16
 1026,1909,DSK103,Cancelled,2,2024-09-18,3,False,3,3,136.8895794,29,Male,OFFICEDESK_DSK103,Office Desk,691.88,Cash,Offline,Express,Fast Shipping,High,2075.64
@@ -1040,14 +1040,14 @@ order_id,customer_id,product_id,order_status,payment_id,order_date,shipping_id,i
 1039,1918,DSK103,Completed,4,2024-01-10,3,False,3,3,136.8895794,19,Male,OFFICEDESK_DSK103,Office Desk,691.88,Debit Card,Online,Express,Fast Shipping,High,2075.64
 1040,1918,CHR101,Cancelled,2,2024-02-23,1,False,5,10,3.770756345,19,Male,OFFICECHAIR_CHR101,Office Chair,488.35,Cash,Offline,Standard,Standard,Low,4883.5
 1041,1921,DSK103,Completed,2,2024-04-18,3,True,3,6,136.8895794,23,Female,OFFICEDESK_DSK103,Office Desk,691.88,Cash,Offline,Express,Fast Shipping,High,4151.28
-1042,1921,BSF101,Cancelle,2,2024-04-30,3,True,3,7,77.65840257,23,Female,BOOKSHELF_BSF101,Bookshelf,129.83,Cash,Offline,Express,Fast Shipping,High,908.8100000000001
+1042,1921,BSF101,Cancelled,2,2024-04-30,3,True,3,7,77.65840257,23,Female,BOOKSHELF_BSF101,Bookshelf,129.83,Cash,Offline,Express,Fast Shipping,High,908.8100000000001
 1043,1921,CHR102,Cancelled,4,2024-09-11,4,False,2,10,125.2583178,23,Female,OFFICECHAIR_CHR102,Office Chair,596.09,Debit Card,Online,Overnight,Fast Shipping,Very High,5960.900000000001
 1044,1922,CHR102,Completed,2,2024-07-16,4,False,2,4,125.2583178,35,Male,OFFICECHAIR_CHR102,Office Chair,596.09,Cash,Offline,Overnight,Fast Shipping,Very High,2384.36
-1045,1924,BSF101,Cancelle,5,2023-10-25,1,False,3,9,69.89256231,18,Male,BOOKSHELF_BSF101,Bookshelf,129.83,Paypal,Online,Standard,Standard,Low,1168.47
+1045,1924,BSF101,Cancelled,5,2023-10-25,1,False,3,9,69.89256231,18,Male,BOOKSHELF_BSF101,Bookshelf,129.83,Paypal,Online,Standard,Standard,Low,1168.47
 1046,1924,CHR101,Cancelled,5,2024-01-26,4,False,5,7,3.724203797,18,Male,OFFICECHAIR_CHR101,Office Chair,488.35,Paypal,Online,Overnight,Fast Shipping,Very High,3418.4500000000003
 1047,1925,BSF101,Completed,4,2024-03-02,4,False,3,5,69.02969117,24,Male,BOOKSHELF_BSF101,Bookshelf,129.83,Debit Card,Online,Overnight,Fast Shipping,Very High,649.1500000000001
 1048,1925,DSK103,Completed,2,2024-05-03,3,False,3,7,136.8895794,24,Male,OFFICEDESK_DSK103,Office Desk,691.88,Cash,Offline,Express,Fast Shipping,High,4843.16
-1049,1927,CHR102,Cancelle,5,2024-02-17,4,False,2,9,125.2583178,48,Male,OFFICECHAIR_CHR102,Office Chair,596.09,Paypal,Online,Overnight,Fast Shipping,Very High,5364.81
+1049,1927,CHR102,Cancelled,5,2024-02-17,4,False,2,9,125.2583178,48,Male,OFFICECHAIR_CHR102,Office Chair,596.09,Paypal,Online,Overnight,Fast Shipping,Very High,5364.81
 1050,1928,CHR101,Cancelled,5,2024-08-24,4,True,5,3,3.724203797,29,Male,OFFICECHAIR_CHR101,Office Chair,488.35,Paypal,Online,Overnight,Fast Shipping,Very High,1465.0500000000002
 1051,1929,BSF101,Cancelled,5,2023-09-26,4,True,3,4,69.02969117,41,Male,BOOKSHELF_BSF101,Bookshelf,129.83,Paypal,Online,Overnight,Fast Shipping,Very High,519.32
 1052,1931,CHR102,Cancelled,3,2023-11-27,4,False,2,4,125.2583178,36,Male,OFFICECHAIR_CHR102,Office Chair,596.09,Credit Card,Online,Overnight,Fast Shipping,Very High,2384.36
@@ -4563,7 +4563,7 @@ order_id,customer_id,product_id,order_status,payment_id,order_date,shipping_id,i
 4562,5065,CHR102,Completed,3,2023-12-09,4,False,2,6,125.2583178,58,Male,OFFICECHAIR_CHR102,Office Chair,596.09,Credit Card,Online,Overnight,Fast Shipping,Very High,3576.54
 4563,5065,CHR102,Completed,3,2024-06-08,4,False,2,2,125.2583178,58,Male,OFFICECHAIR_CHR102,Office Chair,596.09,Credit Card,Online,Overnight,Fast Shipping,Very High,1192.18
 4564,5065,BSF101,Completed,5,2024-08-01,1,False,3,10,69.89256231,58,Male,BOOKSHELF_BSF101,Bookshelf,129.83,Paypal,Online,Standard,Standard,Low,1298.3000000000002
-4565,5066,SCB101,Cancelle,3,2023-12-01,4,True,3,9,55.75928829,32,Female,STORAGECAB_SCB101,Storage Cabinet,366.98,Credit Card,Online,Overnight,Fast Shipping,Very High,3302.82
+4565,5066,SCB101,Cancelled,3,2023-12-01,4,True,3,9,55.75928829,32,Female,STORAGECAB_SCB101,Storage Cabinet,366.98,Credit Card,Online,Overnight,Fast Shipping,Very High,3302.82
 4566,5066,SCB101,Completed,5,2023-12-08,3,False,3,5,62.72919932,32,Female,STORAGECAB_SCB101,Storage Cabinet,366.98,Paypal,Online,Express,Fast Shipping,High,1834.9
 4567,5067,CHR102,Completed,5,2024-06-15,1,True,2,4,126.8240468,49,Male,OFFICECHAIR_CHR102,Office Chair,596.09,Paypal,Online,Standard,Standard,Low,2384.36
 4568,5069,SCB101,Completed,2,2023-09-25,4,True,3,2,55.75928829,31,Male,STORAGECAB_SCB101,Storage Cabinet,366.98,Cash,Offline,Overnight,Fast Shipping,Very High,733.96
@@ -4590,7 +4590,7 @@ order_id,customer_id,product_id,order_status,payment_id,order_date,shipping_id,i
 4589,5091,SCB101,Completed,5,2023-10-07,4,True,3,9,55.75928829,25,Male,STORAGECAB_SCB101,Storage Cabinet,366.98,Paypal,Online,Overnight,Fast Shipping,Very High,3302.82
 4590,5091,CHR101,Completed,2,2024-04-19,3,False,5,10,4.189729272,25,Male,OFFICECHAIR_CHR101,Office Chair,488.35,Cash,Offline,Express,Fast Shipping,High,4883.5
 4591,5092,CHR101,Completed,5,2023-11-02,3,True,5,10,4.189729272,51,Male,OFFICECHAIR_CHR101,Office Chair,488.35,Paypal,Online,Express,Fast Shipping,High,4883.5
-4592,5092,CHR102,Cancelle,5,2023-11-03,4,False,2,6,125.2583178,51,Male,OFFICECHAIR_CHR102,Office Chair,596.09,Paypal,Online,Overnight,Fast Shipping,Very High,3576.54
+4592,5092,CHR102,Cancelled,5,2023-11-03,4,False,2,6,125.2583178,51,Male,OFFICECHAIR_CHR102,Office Chair,596.09,Paypal,Online,Overnight,Fast Shipping,Very High,3576.54
 4593,5094,BSF101,Completed,4,2024-07-15,3,False,3,5,77.65840257,63,Male,BOOKSHELF_BSF101,Bookshelf,129.83,Debit Card,Online,Express,Fast Shipping,High,649.1500000000001
 4594,5096,SCB101,Completed,5,2023-11-20,3,False,3,8,62.72919932,23,Female,STORAGECAB_SCB101,Storage Cabinet,366.98,Paypal,Online,Express,Fast Shipping,High,2935.84
 4595,5096,CHR102,Cancelled,4,2024-05-05,3,True,2,8,140.9156075,23,Female,OFFICECHAIR_CHR102,Office Chair,596.09,Debit Card,Online,Express,Fast Shipping,High,4768.72
@@ -4602,7 +4602,7 @@ order_id,customer_id,product_id,order_status,payment_id,order_date,shipping_id,i
 4601,5104,CHR101,Completed,3,2024-06-11,3,False,5,3,4.189729272,58,Male,OFFICECHAIR_CHR101,Office Chair,488.35,Credit Card,Online,Express,Fast Shipping,High,1465.0500000000002
 4602,5107,DSK103,Completed,3,2023-11-04,4,False,3,2,121.6796261,75,Male,OFFICEDESK_DSK103,Office Desk,691.88,Credit Card,Online,Overnight,Fast Shipping,Very High,1383.76
 4603,5108,SCB101,Completed,4,2023-10-08,4,False,3,6,55.75928829,76,Male,STORAGECAB_SCB101,Storage Cabinet,366.98,Debit Card,Online,Overnight,Fast Shipping,Very High,2201.88
-4604,5109,DSK103,Cancelle,2,2024-01-31,1,False,3,5,123.2006214,58,Female,OFFICEDESK_DSK103,Office Desk,691.88,Cash,Offline,Standard,Standard,Low,3459.4
+4604,5109,DSK103,Cancelled,2,2024-01-31,1,False,3,5,123.2006214,58,Female,OFFICEDESK_DSK103,Office Desk,691.88,Cash,Offline,Standard,Standard,Low,3459.4
 4605,5111,SCB101,Cancelled,3,2024-02-10,4,False,3,10,55.75928829,64,Male,STORAGECAB_SCB101,Storage Cabinet,366.98,Credit Card,Online,Overnight,Fast Shipping,Very High,3669.8
 4606,5114,SCB101,Completed,3,2024-04-02,1,False,3,3,56.45627939,49,Female,STORAGECAB_SCB101,Storage Cabinet,366.98,Credit Card,Online,Standard,Standard,Low,1100.94
 4607,5114,DSK103,Completed,2,2024-04-08,1,True,3,6,123.2006214,49,Female,OFFICEDESK_DSK103,Office Desk,691.88,Cash,Offline,Standard,Standard,Low,4151.28
@@ -8648,7 +8648,7 @@ order_id,customer_id,product_id,order_status,payment_id,order_date,shipping_id,i
 8647,8785,CHR102,Completed,2,2024-07-16,1,True,2,5,126.8240468,30,Male,OFFICECHAIR_CHR102,Office Chair,596.09,Cash,Offline,Standard,Standard,Low,2980.4500000000003
 8648,8785,CHR102,Completed,3,2024-08-02,3,False,2,8,140.9156075,30,Male,OFFICECHAIR_CHR102,Office Chair,596.09,Credit Card,Online,Express,Fast Shipping,High,4768.72
 8649,8786,CHR101,Cancelled,4,2023-10-01,1,False,5,10,3.770756345,55,Female,OFFICECHAIR_CHR101,Office Chair,488.35,Debit Card,Online,Standard,Standard,Low,4883.5
-8650,8788,CHR101,Cancelle,5,2023-11-04,1,True,5,1,3.770756345,61,Male,OFFICECHAIR_CHR101,Office Chair,488.35,Paypal,Online,Standard,Standard,Low,488.35
+8650,8788,CHR101,Cancelled,5,2023-11-04,1,True,5,1,3.770756345,61,Male,OFFICECHAIR_CHR101,Office Chair,488.35,Paypal,Online,Standard,Standard,Low,488.35
 8651,8789,DSK103,Completed,4,2024-02-12,3,True,3,6,136.8895794,49,Male,OFFICEDESK_DSK103,Office Desk,691.88,Debit Card,Online,Express,Fast Shipping,High,4151.28
 8652,8789,SCB101,Completed,5,2024-05-16,1,False,3,6,56.45627939,49,Male,STORAGECAB_SCB101,Storage Cabinet,366.98,Paypal,Online,Standard,Standard,Low,2201.88
 8653,8789,CHR101,Completed,3,2024-06-15,4,True,5,7,3.724203797,49,Male,OFFICECHAIR_CHR101,Office Chair,488.35,Credit Card,Online,Overnight,Fast Shipping,Very High,3418.4500000000003
@@ -8656,7 +8656,7 @@ order_id,customer_id,product_id,order_status,payment_id,order_date,shipping_id,i
 8655,8790,BSF101,Cancelled,3,2023-12-30,3,False,3,9,77.65840257,21,Female,BOOKSHELF_BSF101,Bookshelf,129.83,Credit Card,Online,Express,Fast Shipping,High,1168.47
 8656,8790,DSK103,Completed,5,2024-01-02,1,False,3,10,123.2006214,21,Female,OFFICEDESK_DSK103,Office Desk,691.88,Paypal,Online,Standard,Standard,Low,6918.8
 8657,8790,DSK103,Completed,4,2024-03-15,1,True,3,10,123.2006214,21,Female,OFFICEDESK_DSK103,Office Desk,691.88,Debit Card,Online,Standard,Standard,Low,6918.8
-8658,8795,SCB101,Cancelle,3,2023-12-06,3,True,3,10,62.72919932,58,Female,STORAGECAB_SCB101,Storage Cabinet,366.98,Credit Card,Online,Express,Fast Shipping,High,3669.8
+8658,8795,SCB101,Cancelled,3,2023-12-06,3,True,3,10,62.72919932,58,Female,STORAGECAB_SCB101,Storage Cabinet,366.98,Credit Card,Online,Express,Fast Shipping,High,3669.8
 8659,8795,CHR101,Cancelled,2,2024-07-11,3,True,5,6,4.189729272,58,Female,OFFICECHAIR_CHR101,Office Chair,488.35,Cash,Offline,Express,Fast Shipping,High,2930.1000000000004
 8660,8796,DSK103,Completed,2,2024-08-19,3,False,3,1,136.8895794,31,Female,OFFICEDESK_DSK103,Office Desk,691.88,Cash,Offline,Express,Fast Shipping,High,691.88
 8661,8797,SCB101,Completed,2,2023-10-25,1,False,3,4,56.45627939,41,Female,STORAGECAB_SCB101,Storage Cabinet,366.98,Cash,Offline,Standard,Standard,Low,1467.92
@@ -8664,7 +8664,7 @@ order_id,customer_id,product_id,order_status,payment_id,order_date,shipping_id,i
 8663,8798,DSK103,Completed,3,2024-01-13,1,False,3,1,123.2006214,73,Male,OFFICEDESK_DSK103,Office Desk,691.88,Credit Card,Online,Standard,Standard,Low,691.88
 8664,8798,BSF101,Completed,2,2024-06-10,1,False,3,4,69.89256231,73,Male,BOOKSHELF_BSF101,Bookshelf,129.83,Cash,Offline,Standard,Standard,Low,519.32
 8665,8799,DSK103,Cancelled,5,2024-02-02,3,True,3,10,136.8895794,27,Female,OFFICEDESK_DSK103,Office Desk,691.88,Paypal,Online,Express,Fast Shipping,High,6918.8
-8666,8799,CHR101,Cancelle,3,2024-04-20,3,True,5,10,4.189729272,27,Female,OFFICECHAIR_CHR101,Office Chair,488.35,Credit Card,Online,Express,Fast Shipping,High,4883.5
+8666,8799,CHR101,Cancelled,3,2024-04-20,3,True,5,10,4.189729272,27,Female,OFFICECHAIR_CHR101,Office Chair,488.35,Credit Card,Online,Express,Fast Shipping,High,4883.5
 8667,8799,DSK103,Cancelled,3,2024-06-02,1,False,3,6,123.2006214,27,Female,OFFICEDESK_DSK103,Office Desk,691.88,Credit Card,Online,Standard,Standard,Low,4151.28
 8668,8801,DSK103,Completed,2,2024-03-07,4,True,3,10,121.6796261,49,Female,OFFICEDESK_DSK103,Office Desk,691.88,Cash,Offline,Overnight,Fast Shipping,Very High,6918.8
 8669,8801,BSF101,Completed,5,2024-06-07,4,False,3,3,69.02969117,49,Female,BOOKSHELF_BSF101,Bookshelf,129.83,Paypal,Online,Overnight,Fast Shipping,Very High,389.49
@@ -8708,7 +8708,7 @@ order_id,customer_id,product_id,order_status,payment_id,order_date,shipping_id,i
 8707,8832,DSK103,Completed,3,2024-02-28,1,False,3,2,123.2006214,80,Male,OFFICEDESK_DSK103,Office Desk,691.88,Credit Card,Online,Standard,Standard,Low,1383.76
 8708,8833,CHR101,Completed,5,2024-08-31,3,False,5,7,4.189729272,35,Female,OFFICECHAIR_CHR101,Office Chair,488.35,Paypal,Online,Express,Fast Shipping,High,3418.4500000000003
 8709,8834,BSF101,Cancelled,5,2024-05-24,4,False,3,2,69.02969117,51,Female,BOOKSHELF_BSF101,Bookshelf,129.83,Paypal,Online,Overnight,Fast Shipping,Very High,259.66
-8710,8835,CHR102,Cancelle,5,2024-01-06,4,True,2,2,125.2583178,69,Male,OFFICECHAIR_CHR102,Office Chair,596.09,Paypal,Online,Overnight,Fast Shipping,Very High,1192.18
+8710,8835,CHR102,Cancelled,5,2024-01-06,4,True,2,2,125.2583178,69,Male,OFFICECHAIR_CHR102,Office Chair,596.09,Paypal,Online,Overnight,Fast Shipping,Very High,1192.18
 8711,8835,DSK103,Completed,5,2024-03-07,4,False,3,10,121.6796261,69,Male,OFFICEDESK_DSK103,Office Desk,691.88,Paypal,Online,Overnight,Fast Shipping,Very High,6918.8
 8712,8837,SCB101,Completed,2,2024-02-17,1,False,3,2,56.45627939,69,Female,STORAGECAB_SCB101,Storage Cabinet,366.98,Cash,Offline,Standard,Standard,Low,733.96
 8713,8838,BSF101,Completed,3,2024-05-06,4,False,3,2,69.02969117,56,Male,BOOKSHELF_BSF101,Bookshelf,129.83,Credit Card,Online,Overnight,Fast Shipping,Very High,259.66
@@ -9347,7 +9347,7 @@ order_id,customer_id,product_id,order_status,payment_id,order_date,shipping_id,i
 9346,9422,BSF101,Completed,4,2024-07-25,3,False,3,1,77.65840257,28,Male,BOOKSHELF_BSF101,Bookshelf,129.83,Debit Card,Online,Express,Fast Shipping,High,129.83
 9347,9423,CHR101,Completed,3,2024-03-24,3,False,5,9,4.189729272,67,Male,OFFICECHAIR_CHR101,Office Chair,488.35,Credit Card,Online,Express,Fast Shipping,High,4395.150000000001
 9348,9425,CHR101,Completed,4,2023-10-04,1,False,5,5,3.770756345,50,Male,OFFICECHAIR_CHR101,Office Chair,488.35,Debit Card,Online,Standard,Standard,Low,2441.75
-9349,9425,CHR102,Cancelle,3,2023-12-03,4,False,2,2,125.2583178,50,Male,OFFICECHAIR_CHR102,Office Chair,596.09,Credit Card,Online,Overnight,Fast Shipping,Very High,1192.18
+9349,9425,CHR102,Cancelled,3,2023-12-03,4,False,2,2,125.2583178,50,Male,OFFICECHAIR_CHR102,Office Chair,596.09,Credit Card,Online,Overnight,Fast Shipping,Very High,1192.18
 9350,9428,DSK103,Completed,3,2024-06-07,3,True,3,4,136.8895794,71,Female,OFFICEDESK_DSK103,Office Desk,691.88,Credit Card,Online,Express,Fast Shipping,High,2767.52
 9351,9428,BSF101,Completed,4,2024-07-24,1,False,3,9,69.89256231,71,Female,BOOKSHELF_BSF101,Bookshelf,129.83,Debit Card,Online,Standard,Standard,Low,1168.47
 9352,9429,CHR101,Cancelled,5,2023-11-05,3,False,5,8,4.189729272,66,Male,OFFICECHAIR_CHR101,Office Chair,488.35,Paypal,Online,Express,Fast Shipping,High,3906.8
@@ -9357,7 +9357,7 @@ order_id,customer_id,product_id,order_status,payment_id,order_date,shipping_id,i
 9356,9430,SCB101,Cancelled,3,2024-08-18,4,False,3,5,55.75928829,36,Male,STORAGECAB_SCB101,Storage Cabinet,366.98,Credit Card,Online,Overnight,Fast Shipping,Very High,1834.9
 9357,9433,BSF101,Completed,5,2024-01-02,4,True,3,9,69.02969117,73,Female,BOOKSHELF_BSF101,Bookshelf,129.83,Paypal,Online,Overnight,Fast Shipping,Very High,1168.47
 9358,9433,CHR101,Cancelled,4,2024-07-02,4,True,5,5,3.724203797,73,Female,OFFICECHAIR_CHR101,Office Chair,488.35,Debit Card,Online,Overnight,Fast Shipping,Very High,2441.75
-9359,9433,DSK103,Cancelle,3,2024-07-17,4,False,3,3,121.6796261,73,Female,OFFICEDESK_DSK103,Office Desk,691.88,Credit Card,Online,Overnight,Fast Shipping,Very High,2075.64
+9359,9433,DSK103,Cancelled,3,2024-07-17,4,False,3,3,121.6796261,73,Female,OFFICEDESK_DSK103,Office Desk,691.88,Credit Card,Online,Overnight,Fast Shipping,Very High,2075.64
 9360,9434,BSF101,Completed,3,2024-08-18,3,False,3,7,77.65840257,67,Female,BOOKSHELF_BSF101,Bookshelf,129.83,Credit Card,Online,Express,Fast Shipping,High,908.8100000000001
 9361,9437,BSF101,Completed,5,2023-10-31,3,False,3,7,77.65840257,70,Male,BOOKSHELF_BSF101,Bookshelf,129.83,Paypal,Online,Express,Fast Shipping,High,908.8100000000001
 9362,9438,CHR102,Cancelled,3,2023-10-24,3,False,2,3,140.9156075,79,Female,OFFICECHAIR_CHR102,Office Chair,596.09,Credit Card,Online,Express,Fast Shipping,High,1788.27
@@ -9370,7 +9370,7 @@ order_id,customer_id,product_id,order_status,payment_id,order_date,shipping_id,i
 9369,9443,CHR101,Cancelled,5,2024-05-21,4,True,5,1,3.724203797,51,Male,OFFICECHAIR_CHR101,Office Chair,488.35,Paypal,Online,Overnight,Fast Shipping,Very High,488.35
 9370,9444,CHR101,Cancelled,3,2023-11-01,1,False,5,1,3.770756345,59,Male,OFFICECHAIR_CHR101,Office Chair,488.35,Credit Card,Online,Standard,Standard,Low,488.35
 9371,9445,DSK103,Completed,3,2024-07-26,1,True,3,2,123.2006214,60,Male,OFFICEDESK_DSK103,Office Desk,691.88,Credit Card,Online,Standard,Standard,Low,1383.76
-9372,9447,CHR101,Cancelle,5,2024-05-02,1,False,5,7,3.770756345,50,Female,OFFICECHAIR_CHR101,Office Chair,488.35,Paypal,Online,Standard,Standard,Low,3418.4500000000003
+9372,9447,CHR101,Cancelled,5,2024-05-02,1,False,5,7,3.770756345,50,Female,OFFICECHAIR_CHR101,Office Chair,488.35,Paypal,Online,Standard,Standard,Low,3418.4500000000003
 9373,9449,CHR102,Completed,3,2024-03-22,1,False,2,6,126.8240468,62,Female,OFFICECHAIR_CHR102,Office Chair,596.09,Credit Card,Online,Standard,Standard,Low,3576.54
 9374,9450,DSK103,Completed,4,2023-10-19,4,False,3,1,121.6796261,19,Male,OFFICEDESK_DSK103,Office Desk,691.88,Debit Card,Online,Overnight,Fast Shipping,Very High,691.88
 9375,9450,BSF101,Cancelled,2,2023-10-20,3,False,3,8,77.65840257,19,Male,BOOKSHELF_BSF101,Bookshelf,129.83,Cash,Offline,Express,Fast Shipping,High,1038.64
@@ -9384,7 +9384,7 @@ order_id,customer_id,product_id,order_status,payment_id,order_date,shipping_id,i
 9383,9456,CHR101,Completed,3,2024-03-11,1,False,5,7,3.770756345,80,Female,OFFICECHAIR_CHR101,Office Chair,488.35,Credit Card,Online,Standard,Standard,Low,3418.4500000000003
 9384,9457,CHR101,Completed,3,2024-08-19,3,False,5,2,4.189729272,34,Female,OFFICECHAIR_CHR101,Office Chair,488.35,Credit Card,Online,Express,Fast Shipping,High,976.7
 9385,9459,CHR102,Cancelled,3,2024-06-09,4,False,2,9,125.2583178,48,Male,OFFICECHAIR_CHR102,Office Chair,596.09,Credit Card,Online,Overnight,Fast Shipping,Very High,5364.81
-9386,9460,CHR102,Cancelle,5,2024-03-27,1,False,2,9,126.8240468,52,Male,OFFICECHAIR_CHR102,Office Chair,596.09,Paypal,Online,Standard,Standard,Low,5364.81
+9386,9460,CHR102,Cancelled,5,2024-03-27,1,False,2,9,126.8240468,52,Male,OFFICECHAIR_CHR102,Office Chair,596.09,Paypal,Online,Standard,Standard,Low,5364.81
 9387,9461,BSF101,Cancelled,4,2024-04-28,3,False,3,5,77.65840257,55,Female,BOOKSHELF_BSF101,Bookshelf,129.83,Debit Card,Online,Express,Fast Shipping,High,649.1500000000001
 9388,9461,CHR101,Completed,2,2024-07-27,1,False,5,3,3.770756345,55,Female,OFFICECHAIR_CHR101,Office Chair,488.35,Cash,Offline,Standard,Standard,Low,1465.0500000000002
 9389,9462,CHR101,Cancelled,3,2024-02-02,4,False,5,7,3.724203797,29,Male,OFFICECHAIR_CHR101,Office Chair,488.35,Credit Card,Online,Overnight,Fast Shipping,Very High,3418.4500000000003
@@ -9399,7 +9399,7 @@ order_id,customer_id,product_id,order_status,payment_id,order_date,shipping_id,i
 9398,9469,CHR102,Cancelled,4,2023-09-27,1,False,2,2,126.8240468,38,Female,OFFICECHAIR_CHR102,Office Chair,596.09,Debit Card,Online,Standard,Standard,Low,1192.18
 9399,9471,CHR101,Completed,2,2024-05-29,4,False,5,7,3.724203797,68,Male,OFFICECHAIR_CHR101,Office Chair,488.35,Cash,Offline,Overnight,Fast Shipping,Very High,3418.4500000000003
 9400,9471,DSK103,Cancelled,5,2024-09-15,1,True,3,8,123.2006214,68,Male,OFFICEDESK_DSK103,Office Desk,691.88,Paypal,Online,Standard,Standard,Low,5535.04
-9401,9473,SCB101,Cancelle,2,2024-04-18,1,True,3,3,56.45627939,76,Female,STORAGECAB_SCB101,Storage Cabinet,366.98,Cash,Offline,Standard,Standard,Low,1100.94
+9401,9473,SCB101,Cancelled,2,2024-04-18,1,True,3,3,56.45627939,76,Female,STORAGECAB_SCB101,Storage Cabinet,366.98,Cash,Offline,Standard,Standard,Low,1100.94
 9402,9474,BSF101,Completed,4,2023-11-30,3,False,3,8,77.65840257,59,Female,BOOKSHELF_BSF101,Bookshelf,129.83,Debit Card,Online,Express,Fast Shipping,High,1038.64
 9403,9475,SCB101,Completed,4,2024-07-09,1,False,3,6,56.45627939,75,Male,STORAGECAB_SCB101,Storage Cabinet,366.98,Debit Card,Online,Standard,Standard,Low,2201.88
 9404,9476,CHR101,Completed,2,2024-03-09,4,False,5,7,3.724203797,48,Male,OFFICECHAIR_CHR101,Office Chair,488.35,Cash,Offline,Overnight,Fast Shipping,Very High,3418.4500000000003
@@ -9429,7 +9429,7 @@ order_id,customer_id,product_id,order_status,payment_id,order_date,shipping_id,i
 9428,9501,BSF101,Cancelled,2,2023-10-30,1,False,3,8,69.89256231,51,Male,BOOKSHELF_BSF101,Bookshelf,129.83,Cash,Offline,Standard,Standard,Low,1038.64
 9429,9502,CHR101,Cancelled,2,2024-05-28,1,False,5,9,3.770756345,47,Female,OFFICECHAIR_CHR101,Office Chair,488.35,Cash,Offline,Standard,Standard,Low,4395.150000000001
 9430,9503,BSF101,Completed,5,2023-10-13,4,False,3,7,69.02969117,67,Male,BOOKSHELF_BSF101,Bookshelf,129.83,Paypal,Online,Overnight,Fast Shipping,Very High,908.8100000000001
-9431,9503,DSK103,Cancelle,4,2024-02-14,3,True,3,4,136.8895794,67,Male,OFFICEDESK_DSK103,Office Desk,691.88,Debit Card,Online,Express,Fast Shipping,High,2767.52
+9431,9503,DSK103,Cancelled,4,2024-02-14,3,True,3,4,136.8895794,67,Male,OFFICEDESK_DSK103,Office Desk,691.88,Debit Card,Online,Express,Fast Shipping,High,2767.52
 9432,9506,SCB101,Cancelled,2,2023-12-29,1,False,3,9,56.45627939,52,Female,STORAGECAB_SCB101,Storage Cabinet,366.98,Cash,Offline,Standard,Standard,Low,3302.82
 9433,9506,CHR101,Completed,2,2024-04-07,1,True,5,6,3.770756345,52,Female,OFFICECHAIR_CHR101,Office Chair,488.35,Cash,Offline,Standard,Standard,Low,2930.1000000000004
 9434,9507,CHR101,Completed,5,2024-03-07,1,False,5,9,3.770756345,63,Female,OFFICECHAIR_CHR101,Office Chair,488.35,Paypal,Online,Standard,Standard,Low,4395.150000000001
@@ -9474,7 +9474,7 @@ order_id,customer_id,product_id,order_status,payment_id,order_date,shipping_id,i
 9473,9540,SCB101,Completed,4,2024-01-04,1,False,3,6,56.45627939,48,Male,STORAGECAB_SCB101,Storage Cabinet,366.98,Debit Card,Online,Standard,Standard,Low,2201.88
 9474,9540,CHR102,Completed,3,2024-05-02,4,False,2,5,125.2583178,48,Male,OFFICECHAIR_CHR102,Office Chair,596.09,Credit Card,Online,Overnight,Fast Shipping,Very High,2980.4500000000003
 9475,9541,BSF101,Completed,4,2023-10-14,1,False,3,10,69.89256231,25,Female,BOOKSHELF_BSF101,Bookshelf,129.83,Debit Card,Online,Standard,Standard,Low,1298.3000000000002
-9476,9543,SCB101,Cancelle,2,2024-03-12,3,False,3,4,62.72919932,34,Female,STORAGECAB_SCB101,Storage Cabinet,366.98,Cash,Offline,Express,Fast Shipping,High,1467.92
+9476,9543,SCB101,Cancelled,2,2024-03-12,3,False,3,4,62.72919932,34,Female,STORAGECAB_SCB101,Storage Cabinet,366.98,Cash,Offline,Express,Fast Shipping,High,1467.92
 9477,9545,DSK103,Cancelled,4,2024-09-04,4,True,3,7,121.6796261,28,Female,OFFICEDESK_DSK103,Office Desk,691.88,Debit Card,Online,Overnight,Fast Shipping,Very High,4843.16
 9478,9546,BSF101,Completed,3,2024-02-06,1,False,3,8,69.89256231,58,Female,BOOKSHELF_BSF101,Bookshelf,129.83,Credit Card,Online,Standard,Standard,Low,1038.64
 9479,9548,CHR102,Cancelled,2,2023-11-30,1,False,2,1,126.8240468,23,Female,OFFICECHAIR_CHR102,Office Chair,596.09,Cash,Offline,Standard,Standard,Low,596.09
@@ -9487,7 +9487,7 @@ order_id,customer_id,product_id,order_status,payment_id,order_date,shipping_id,i
 9486,9551,DSK103,Completed,5,2024-06-16,3,False,3,4,136.8895794,40,Male,OFFICEDESK_DSK103,Office Desk,691.88,Paypal,Online,Express,Fast Shipping,High,2767.52
 9487,9552,DSK103,Completed,4,2024-01-12,1,False,3,8,123.2006214,77,Male,OFFICEDESK_DSK103,Office Desk,691.88,Debit Card,Online,Standard,Standard,Low,5535.04
 9488,9552,BSF101,Cancelled,5,2024-03-22,4,False,3,1,69.02969117,77,Male,BOOKSHELF_BSF101,Bookshelf,129.83,Paypal,Online,Overnight,Fast Shipping,Very High,129.83
-9489,9552,CHR102,Cancelle,2,2024-08-19,4,False,2,1,125.2583178,77,Male,OFFICECHAIR_CHR102,Office Chair,596.09,Cash,Offline,Overnight,Fast Shipping,Very High,596.09
+9489,9552,CHR102,Cancelled,2,2024-08-19,4,False,2,1,125.2583178,77,Male,OFFICECHAIR_CHR102,Office Chair,596.09,Cash,Offline,Overnight,Fast Shipping,Very High,596.09
 9490,9556,SCB101,Completed,5,2024-03-31,4,True,3,2,55.75928829,48,Female,STORAGECAB_SCB101,Storage Cabinet,366.98,Paypal,Online,Overnight,Fast Shipping,Very High,733.96
 9491,9559,SCB101,Cancelled,4,2024-03-20,4,False,3,3,55.75928829,64,Female,STORAGECAB_SCB101,Storage Cabinet,366.98,Debit Card,Online,Overnight,Fast Shipping,Very High,1100.94
 9492,9559,DSK103,Completed,2,2024-04-15,1,False,3,9,123.2006214,64,Female,OFFICEDESK_DSK103,Office Desk,691.88,Cash,Offline,Standard,Standard,Low,6226.92
@@ -9576,7 +9576,7 @@ order_id,customer_id,product_id,order_status,payment_id,order_date,shipping_id,i
 9575,9631,BSF101,Completed,4,2023-11-21,4,False,3,10,69.02969117,28,Female,BOOKSHELF_BSF101,Bookshelf,129.83,Debit Card,Online,Overnight,Fast Shipping,Very High,1298.3000000000002
 9576,9631,DSK103,Cancelled,2,2024-05-12,4,False,3,4,121.6796261,28,Female,OFFICEDESK_DSK103,Office Desk,691.88,Cash,Offline,Overnight,Fast Shipping,Very High,2767.52
 9577,9631,CHR102,Completed,3,2024-06-04,4,False,2,3,125.2583178,28,Female,OFFICECHAIR_CHR102,Office Chair,596.09,Credit Card,Online,Overnight,Fast Shipping,Very High,1788.27
-9578,9631,BSF101,Cancelle,2,2024-06-24,3,True,3,10,77.65840257,28,Female,BOOKSHELF_BSF101,Bookshelf,129.83,Cash,Offline,Express,Fast Shipping,High,1298.3000000000002
+9578,9631,BSF101,Cancelled,2,2024-06-24,3,True,3,10,77.65840257,28,Female,BOOKSHELF_BSF101,Bookshelf,129.83,Cash,Offline,Express,Fast Shipping,High,1298.3000000000002
 9579,9633,BSF101,Completed,4,2024-01-29,4,False,3,2,69.02969117,33,Female,BOOKSHELF_BSF101,Bookshelf,129.83,Debit Card,Online,Overnight,Fast Shipping,Very High,259.66
 9580,9634,CHR102,Completed,3,2024-04-05,3,False,2,1,140.9156075,68,Male,OFFICECHAIR_CHR102,Office Chair,596.09,Credit Card,Online,Express,Fast Shipping,High,596.09
 9581,9636,SCB101,Cancelled,4,2023-12-31,4,False,3,3,55.75928829,61,Male,STORAGECAB_SCB101,Storage Cabinet,366.98,Debit Card,Online,Overnight,Fast Shipping,Very High,1100.94
@@ -9613,7 +9613,7 @@ order_id,customer_id,product_id,order_status,payment_id,order_date,shipping_id,i
 9612,9657,CHR101,Completed,5,2024-08-08,1,False,5,6,3.770756345,27,Male,OFFICECHAIR_CHR101,Office Chair,488.35,Paypal,Online,Standard,Standard,Low,2930.1000000000004
 9613,9659,DSK103,Completed,2,2024-04-08,4,True,3,3,121.6796261,65,Male,OFFICEDESK_DSK103,Office Desk,691.88,Cash,Offline,Overnight,Fast Shipping,Very High,2075.64
 9614,9660,DSK103,Cancelled,3,2024-02-25,1,False,3,2,123.2006214,44,Female,OFFICEDESK_DSK103,Office Desk,691.88,Credit Card,Online,Standard,Standard,Low,1383.76
-9615,9661,CHR101,Cancelle,5,2023-12-17,3,False,5,8,4.189729272,31,Male,OFFICECHAIR_CHR101,Office Chair,488.35,Paypal,Online,Express,Fast Shipping,High,3906.8
+9615,9661,CHR101,Cancelled,5,2023-12-17,3,False,5,8,4.189729272,31,Male,OFFICECHAIR_CHR101,Office Chair,488.35,Paypal,Online,Express,Fast Shipping,High,3906.8
 9616,9661,SCB101,Completed,5,2024-03-16,3,False,3,1,62.72919932,31,Male,STORAGECAB_SCB101,Storage Cabinet,366.98,Paypal,Online,Express,Fast Shipping,High,366.98
 9617,9662,DSK103,Completed,2,2024-01-06,3,False,3,4,136.8895794,34,Male,OFFICEDESK_DSK103,Office Desk,691.88,Cash,Offline,Express,Fast Shipping,High,2767.52
 9618,9663,CHR101,Cancelled,5,2024-05-13,4,False,5,3,3.724203797,75,Male,OFFICECHAIR_CHR101,Office Chair,488.35,Paypal,Online,Overnight,Fast Shipping,Very High,1465.0500000000002

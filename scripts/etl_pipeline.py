@@ -78,7 +78,15 @@ def _clean_orders(df: pd.DataFrame) -> pd.DataFrame:
     df.drop(columns=["quantity_cost_raw"], inplace=True)
 
     # ── Standardise order_status ─────────────────────────────────────────
-    df["order_status"] = df["order_status"].str.strip().str.capitalize()
+    # Raw data contains typos: "cancelle", "complete", "copleted", etc.
+    status_lower = df["order_status"].str.strip().str.lower()
+    df["order_status"] = np.where(
+        status_lower.str.startswith("ca"), "Cancelled",
+        np.where(status_lower.str.startswith("co"), "Completed", "Unknown")
+    )
+    unknown_count = (df["order_status"] == "Unknown").sum()
+    if unknown_count:
+        logger.warning(f"  {unknown_count} rows with unrecognised order_status")
 
     # ── Convert order_date ───────────────────────────────────────────────
     df["order_date"] = pd.to_datetime(df["order_date"], format="mixed", dayfirst=False)
