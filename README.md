@@ -29,7 +29,7 @@ The dataset consists of a relational database with 5 interconnected tables:
 4. **Customer Segmentation:** - Applied RFM (Recency, Frequency, Monetary) metrics to segment the customer base for targeted marketing.
 
 ## 📊 Dashboard Preview
-![Power BI Dashboard Placeholder](link_to_your_dashboard_image.png)
+![Power BI Dashboard Placeholder](https://app.powerbi.com/groups/me/reports/28c41874-1b09-4cd1-8b71-c27a3fbdadcb/dd58870dd700a58864e4?experience=power-bi)
 
 ## 📁 Repository Structure
 ```text
