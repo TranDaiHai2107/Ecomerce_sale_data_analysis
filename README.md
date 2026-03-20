@@ -1,4 +1,4 @@
-# E-Commerce Sales & Customer Analytics
+# Office Furniture Sale Analytics
 
 ## 📌 Project Overview
 This project aims to analyze e-commerce transaction data to uncover business insights, optimize sales performance, and understand customer behavior. By integrating data processing with Python/SQL and interactive visualization in Power BI, this repository provides an end-to-end data analytics solution. 
@@ -30,12 +30,6 @@ The dataset consists of a relational database with 5 interconnected tables:
 
 ## 📊 Dashboard Preview
 ![Power BI Dashboard Placeholder](link_to_your_dashboard_image.png)
-*(Note: Replace the link above with the actual image link of your Power BI dashboard)*
-
-## 💡 Key Insights & Recommendations
-* **Sales:** [e.g., Office Desks generate the highest revenue, but Bookshelves have the highest profit margin.]
-* **Operations:** [e.g., Orders using 'Cash' have a 20% higher cancellation rate compared to 'Credit Card'.]
-* **Actionable Recommendation:** [e.g., Implement a small deposit requirement for Cash-on-Delivery orders to reduce the cancellation rate.]
 
 ## 📁 Repository Structure
 ```text
